@@ -52,7 +52,6 @@ Crie uma arquivo `pratica.sql` e fiz a conexão:
 
 ```sql
 -- Criando tabela:
-
 CREATE TABLE
     books (
         id TEXT PRIMARY KEY UNIQUE NOT NULL,
@@ -63,13 +62,10 @@ CREATE TABLE
     );
 
 -- Visualizando tabela:
-
 SELECT * FROM books;
-
 -- SELECT name, author FROM books;
 
 -- Apagando tabela
-
 DROP TABLE books;
 ```
 
