@@ -21,6 +21,7 @@
 
     -   [Enunciado](#enunciado-3)
     -   [Resolução](#resoluc3a7c3a3o-3)
+    -   [Extra](#extra)
 
 ## Prática Guiada 1
 
@@ -181,4 +182,14 @@ UPDATE tasks SET description = 'Arrays' WHERE id = 't003';
 
 -- DELETE -> deleta a linha com id t003 da tabela tasks
 DELETE FROM tasks WHERE id = 't003';
+```
+
+### EXTRA:
+
+```sql
+-- ORDENANDO POR ID
+SELECT * FROM tasks ORDER BY id;
+
+-- ORDENANDO POR ORDEM DESCENDENTE
+SELECT * FROM tasks ORDER BY curso DESC;
 ```
