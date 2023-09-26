@@ -160,13 +160,8 @@ DELETE FROM books WHERE id = 'b001';
 ### Resolução
 
 ```sql
-
 -- FIXAÇÃO --
-
--- taks --
-
 -- CREATE -> cria uma tabela chamada tasks, com as infos id, curso, description
-
 CREATE TABLE
     tasks (
         id TEXT PRIMARY KEY UNIQUE NOT NULL,
@@ -175,24 +170,19 @@ CREATE TABLE
     );
 
 --READ -> lê toda a tabela tasks
-
 SELECT * FROM tasks;
 
 -- DELETE -> deleta a tabela tasks
-
 DROP TABLE tasks;
 
 -- CREATE -> cria informações na tabela tasks
-
 INSERT INTO
     tasks (id, curso, description)
 VALUES ('t001', 'React', 'Props'), ('t002', 'SQL', 'CRUD'), ('t003', 'JS', 'Variáveis');
 
 -- UPDATE -> atualiza informações da linha com is t003 da tabela tasks
-
 UPDATE tasks SET description = 'Arrays' WHERE id = 't003';
 
 -- DELETE -> deleta a linha com id t003 da tabela tasks
-
 DELETE FROM tasks WHERE id = 't003';
 ```
